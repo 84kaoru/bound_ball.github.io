@@ -38,3 +38,5 @@ function animate(){
     y += dy;
     requestAnimationFrame(animete);
 }
+
+animate();
