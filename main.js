@@ -20,7 +20,7 @@ function drawBall(){
     ctx.arc(x,y, ballRadius, 0, Math.PI*2);
     ctx.fillStyle = "#0095DD"; 
     ctx.fill();
-    ctx.closePath;
+    ctx.closePath();
 }
 
 function animate(){
@@ -36,7 +36,7 @@ function animate(){
 
     x += dx;
     y += dy;
-    requestAnimationFrame(animete);
+    requestAnimationFrame(animate);
 }
 
 animate();
